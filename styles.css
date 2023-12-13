@@ -1,0 +1,344 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project {
+    width: 300px;
+    margin:20px;
+    padding: 10px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+ 
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #home h2,
+#home p {
+    color: #333; /* Dark gray color (you can adjust the hex code as needed) */
+    font-size: 1.2em;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif; /* Use a professional-looking font */
+  font-size: 2em; /* Adjust the font size */
+  color: #333; /* Dark gray color for text */
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+
+#about h2,
+#about p {
+    color: #333; 
+    color: #555; /* Add your preferred text color *
+    }
+
+
+#projects h2{
+  color: #333;
+}
+
+#about h2 {
+  font-size: 2em; /* Increase the heading font size */
+  margin-bottom: 15px; /* Add some spacing below the heading */
+}
+
+#about p {
+  font-size: 1.2em; /* Increase the paragraph font size */
+  line-height: 1.5; /* Improve readability with increased line height */
+  color: #333; /* Dark gray color for text */
+  margin-bottom: 20px; /* Add spacing below the paragraph */
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-logo {
+    width: 30px; /* Reduce the size of the logos */
+    height: 30px;
+    margin: 0 10px;
+  }
+  
+  .resume-download {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:blue; /* Colorful background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: blue; /* Darker color on hover */
+  }
+  
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .skill-logo {
+    width: 100px; /* Adjust the size based on your preference */
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  #skills {
+    background-color: #f9f9f9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  #skills h2 {
+    color: #333;
+  }
+
+  #projects h2 {
+    color: #333; /* Dark gray color (you can adjust the hex code as needed) */
+  
+}
+
+  
+  
+
+.project-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .project ul {
+    margin-bottom: 10px; /* Add space between the bullet points and the text */
+  }
+  
+  .project ul li {
+    margin-bottom: 5px; /* Add space between individual bullet points */
+  }
+  
+  /* Responsive Navigation Styles */
+  @media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      margin: 0.5rem 0;
+    }
+  }
+  
+  /* Additional Styling */
+  .developer-image {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .header-content {
+    text-align: center;
+    color: #333;
+  }
+  
+  .header-content h1 {
+    margin: 0;
+  }
+  
+  .header-content p {
+    margin: 0;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contact-section {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-box {
+  background-color: #333; /* Dark gray box background */
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  color: #bbb;
+}
+
+.contact-buttons {
+  margin: 20px 0;
+}
+
+.contact-buttons button {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #007BFF;
+}
+
+.contact-buttons button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  color: #333; /* Dark text color */
+  background-color: #ddd; /* Light gray background for input fields */
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing only */
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
